@@ -7,7 +7,7 @@ public class MainT {
         t.ajouterAppareil(new Lampe("lampe"));
         t.ajouterAppareil(new AdapteurTermostat(new Thermostat()));
         t.ajouterAppareil(new AdapteurCheminee(new Cheminee()));
-        t.ajouterAppareil(new Hifi());ut
+        t.ajouterAppareil(new Hifi());
 
 
         TelecommandeGraphique g = new TelecommandeGraphique(t);

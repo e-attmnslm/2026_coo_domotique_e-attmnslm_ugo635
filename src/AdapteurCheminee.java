@@ -6,7 +6,7 @@ public class AdapteurCheminee implements Appareil {
     }
 
     public void allumer() {
-        cheminee.changerIntensite(100);
+        cheminee.changerIntensite(this.cheminee.getLumiere() + 10);
     }
 
     public void eteindre() {

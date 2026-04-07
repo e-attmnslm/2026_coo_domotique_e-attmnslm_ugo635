@@ -63,6 +63,8 @@ public class Telecommande {
 		return (descriptif);
 	}
 
-
+	public int getNombre() {
+		return this.apps.size();
+	}
 
 }

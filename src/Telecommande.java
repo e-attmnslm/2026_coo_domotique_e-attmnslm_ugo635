@@ -29,7 +29,7 @@ public class Telecommande {
 
 
 
-	public void ajoutAppareil(Appareil a){
+	public void ajouterAppareil(Appareil a){
 		this.apps.add(a);
 	}
 	public void activerAppareil(int i){

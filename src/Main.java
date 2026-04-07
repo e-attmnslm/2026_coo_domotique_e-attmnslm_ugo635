@@ -11,7 +11,6 @@ public class Main {
 		t.ajouterAppareil(l1);
 		t.ajouterAppareil(h1);
 		t.ajouterAppareil(ac);
-		
 		/****** A COMPLETER ******/
 		// TODO
 		
